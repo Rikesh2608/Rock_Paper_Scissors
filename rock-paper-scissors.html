@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="emoji">
+        <div onclick="update('rock')"><img src="rock-emoji.png" ></div>
+        <div onclick="update('paper')"><img src="paper-emoji.png"></div>
+        <div onclick="update('scissors')"><img src="scissors-emoji.png" ></div>
+    </div>
+    <div class="score-board"></div>
+    <div class="scores">
+        Wins: 0,Losses: 0, Ties: 0
+    </div>
+    <div class="reset-button"> 
+        <button class="reset" onclick="reset()">Reset Score</button>
+        <button class="js-autoplay">Auto Play</button>
+    </div>
+
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
